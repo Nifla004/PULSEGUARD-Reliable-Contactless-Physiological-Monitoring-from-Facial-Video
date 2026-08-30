@@ -70,7 +70,7 @@ Cells 15 through 23 provide PSQI component analysis, robustness testing, failure
 ## **Key Results**
 PULSEGUARD demonstrates that the reliability layer provides meaningful improvements in trustworthiness. The PSQI correlates negatively with HR estimation error — samples with higher PSQI are estimated more accurately. Failure diagnosis correctly identifies unreliable measurements with AUC significantly above random chance. The confidence intervals achieve empirical coverage close to the target rate. The risk-coverage curve confirms that selectively abstaining on low-reliability measurements reduces MAE on the accepted subset — validating the scientific hypothesis.
 
-## **Honest Limitations
+## **Honest Limitations**
 PULSEGUARD is a resea**rch prototype validated on simulated data. Real deployment requires validation on real facial video from actual cameras. The BVP signal model, while physically motivated, does not capture all real-world rPPG complexities. Face detection and landmark tracking are simulated — real deployment requires Mediapipe Face Mesh or equivalent. The PSQI thresholds require tuning on real clinical datasets. The failure detection AUC would need to be validated against ground truth failure labels from human annotators.
 
 ## **About the Author**
