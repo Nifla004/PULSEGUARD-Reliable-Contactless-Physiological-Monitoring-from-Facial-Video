@@ -2,7 +2,7 @@
 An independent research extension of contactless physiological monitoring — investigating whether a system that estimates heart rate from facial video can become more trustworthy by explicitly modeling signal quality, spectral uncertainty, failure causes, and the possibility of abstaining when evidence is insufficient for reliable measurement.
 
 *This project is inspired by and designed as an explicit research extension of Prof. Prasanta Kumar Ghosh's work on robust real-time pulse-rate estimation from facial video using sparse spectral peak tracking at IISc Bangalore.
-*Prof. Ghosh's approach addresses the question of how to accurately estimate pulse rate from noisy rPPG signals using spectral analysis. PULSEGUARD extends this to ask a different and complementary question: given such an estimation system, when should the system trust its own estimate, what caused an unreliable measurement, and should the system withhold a prediction rather than produce an unreliable one?
+Prof. Ghosh's approach addresses the question of how to accurately estimate pulse rate from noisy rPPG signals using spectral analysis. PULSEGUARD extends this to ask a different and complementary question: given such an estimation system, when should the system trust its own estimate, what caused an unreliable measurement, and should the system withhold a prediction rather than produce an unreliable one?
 PULSEGUARD does not reproduce Prof. Ghosh's system. It explicitly credits the original sparse spectral peak tracking contribution and builds the reliability layer independently on top of that direction.*
 
 ## **Central Research Question**
