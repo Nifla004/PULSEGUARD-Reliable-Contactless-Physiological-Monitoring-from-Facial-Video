@@ -75,6 +75,6 @@ PULSEGUARD is a resea**rch prototype validated on simulated data. Real deploymen
 
 ## **About the Author**
 Nifla Nalakath |
-BTech in Computer Science and Engineering |
+BTech in CSE |
 APJ Abdul Kalam Technological University, Kerala, India |
 niflanalakath@gmail.com
